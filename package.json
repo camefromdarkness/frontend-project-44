@@ -1,0 +1,14 @@
+{
+  "name": "brain-games",
+  "version": "1.0.1",
+  "description": "CLI Brain Games project",
+  "main": "bin/brain-games.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "scripts": {
+    "publish": "npm publish --dry-run"
+  },
+  "author": "",
+  "license": "ISC"
+}
