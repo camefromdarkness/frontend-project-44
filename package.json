@@ -1,14 +1,18 @@
 {
   "name": "brain-games",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI Brain Games project",
   "main": "bin/brain-games.js",
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
+  "type": "module",
   "scripts": {
     "publish": "npm publish --dry-run"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
