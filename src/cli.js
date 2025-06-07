@@ -1,7 +1,12 @@
-import readlineSync from 'readline-sync';
-
-export default () => {
-    console.log('Welcome to the Brain Games!');
-    const name = readlineSync.question('May I have your name? ');
-    console.log(`Hello, ${name}!`);
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+    node: true,
+  },
+  extends: ['airbnb'],
+  rules: {
+    'no-console': 'off',
+    'import/extensions': 'off',
+  },
 };
