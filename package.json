@@ -1,6 +1,6 @@
 {
   "name": "brain-games",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "CLI Brain Games project",
   "homepage": "https://github.com/camefromdarkness/frontend-project-44#readme",
   "bugs": {
@@ -19,7 +19,8 @@
     "brain-even": "bin/brain-even.js",
     "brain-calc": "./bin/brain-calc.js",
     "brain-gcd": "./bin/brain-gcd.js",
-    "brain-progression": "./bin/brain-progression.js"
+    "brain-progression": "./bin/brain-progression.js",
+    "brain-prime": "./bin/brain-prime.js"
   },
   "scripts": {
     "lint": "eslint .",
